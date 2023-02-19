@@ -1,0 +1,3 @@
+xhost +SI:localuser:root
+xgamma -gamma 0.65 &> /dev/null
+
