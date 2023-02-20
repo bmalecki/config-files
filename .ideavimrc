@@ -1,6 +1,2 @@
+source ~/.vimrc
 map rf <Action>(RecentFiles)
-set clipboard+=unnamed
-set hlsearch
-imap <C-L> <Esc>
-
-
