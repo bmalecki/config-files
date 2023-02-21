@@ -15,9 +15,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 export PATH="/home/bartek/.local/bin:$PATH"
-alias gs='git status'
-alias mc='mc -b'
-
 export PATH=/usr/bin:$PATH
 export DOCKER_HOST=unix:///run/user/1000/docker.sock
 
@@ -26,7 +23,6 @@ alias gs='git status'
 alias gfl='git --decorate --oneline --graph'
 
 # nnn
-=======
 nn ()
 {
     # Block nesting of nnn in subshells
