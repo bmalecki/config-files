@@ -20,7 +20,7 @@ export DOCKER_HOST=unix:///run/user/1000/docker.sock
 
 alias mc='mc -b'
 alias gs='git status'
-alias gfl='git --decorate --oneline --graph'
+alias gfl='git log --decorate --oneline --graph'
 
 # nnn
 nn ()
