@@ -59,6 +59,7 @@ export VISUAL=vim
 export NNN_BMS="d:$HOME/Downloads/;p:$HOME/projects;b:$HOME/.config/nnn/bookmarks"
 export NNN_COLORS='0145'
 export NNN_PLUG='d:diffs;o:preview-tui'
+# export NNN_PLUG='d:diffs;o:preview-tuii;i:-!idea "$nnn"*'
 [ -n "$NNNLVL" ] && PROMPT="[$NNNLVL] $PROMPT"
 
 # Added by Toolbox App
