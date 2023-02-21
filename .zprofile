@@ -21,7 +21,12 @@ alias mc='mc -b'
 export PATH=/usr/bin:$PATH
 export DOCKER_HOST=unix:///run/user/1000/docker.sock
 
+alias mc='mc -b'
+alias gs='git status'
+alias gfl='git --decorate --oneline --graph'
+
 # nnn
+=======
 nn ()
 {
     # Block nesting of nnn in subshells
@@ -53,7 +58,12 @@ nn ()
     fi
 }
 
-alias n='nn -dHUxCe'
-export NNN_BMS="d:$HOME/Downloads/;p:$HOME/projects;b:$HOME/.config/nnn/bookmarks"
+alias n='nn -dHUxCeQa'
 export VISUAL=vim
+export NNN_BMS="d:$HOME/Downloads/;p:$HOME/projects;b:$HOME/.config/nnn/bookmarks"
 export NNN_COLORS='0145'
+export NNN_PLUG='d:diffs;o:preview-tui'
+[ -n "$NNNLVL" ] && PROMPT="[$NNNLVL] $PROMPT"
+
+# Added by Toolbox App
+export PATH="$PATH:/usr/local/bin"
