@@ -23,7 +23,7 @@ alias gs='git status'
 alias gfl='git log --decorate --oneline --graph'
 
 # nnn
-nn ()
+n ()
 {
     # Block nesting of nnn in subshells
     if [[ "${NNNLVL:-0}" -ge 1 ]]; then
@@ -54,7 +54,6 @@ nn ()
     fi
 }
 
-alias n='nn'
 export NNN_OPTS='dHUxCeQa'
 export VISUAL=vim
 export NNN_BMS="d:$HOME/Downloads/;p:$HOME/projects;b:$HOME/.config/nnn/bookmarks"
