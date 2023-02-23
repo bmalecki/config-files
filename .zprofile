@@ -26,10 +26,10 @@ alias gfl='git log --decorate --oneline --graph'
 n ()
 {
     # Block nesting of nnn in subshells
-    if [[ "${NNNLVL:-0}" -ge 1 ]]; then
-        echo "nnn is already running"
-        return
-    fi
+    # if [[ "${NNNLVL:-0}" -ge 1 ]]; then
+    #    echo "nnn is already running"
+    #    return
+    # fi
 
     # The behaviour is set to cd on quit (nnn checks if NNN_TMPFILE is set)
     # If NNN_TMPFILE is set to a custom path, it must be exported for nnn to
