@@ -18,6 +18,8 @@ export PATH="/home/bartek/.local/bin:$PATH"
 export PATH=/usr/bin:$PATH
 export DOCKER_HOST=unix:///run/user/1000/docker.sock
 
+export PROMPT="$PROMPT"$'\n'
+
 alias mc='mc -b'
 alias gs='git status'
 alias gfl='git log --decorate --oneline --graph'
