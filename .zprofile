@@ -54,7 +54,8 @@ nn ()
     fi
 }
 
-alias n='nn -dHUxCeQa'
+alias n='nn'
+export NNN_OPTS='dHUxCeQa'
 export VISUAL=vim
 export NNN_BMS="d:$HOME/Downloads/;p:$HOME/projects;b:$HOME/.config/nnn/bookmarks"
 export NNN_COLORS='0145'
